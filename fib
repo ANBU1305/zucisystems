@@ -1,0 +1,11 @@
+num=int(input())
+x,y=0,1
+a=[]
+while y<num:
+    a.append(y);
+    x,y = y,x+y
+print(a)
+if(num in a):
+    print("yes")
+else:
+    print("no")
